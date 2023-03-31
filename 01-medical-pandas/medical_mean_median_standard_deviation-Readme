@@ -1,0 +1,9 @@
+In this example, we load medical data from a CSV file into a Pandas DataFrame. We then calculate the
+mean, median, and standard deviation of patient ages, and print out the results. We also calculate
+the number of patients by gender, and print out the results.
+
+This example demonstrates some of the basic data analysis operations that can be performed using Pandas.
+We can use Pandas to calculate summary statistics, perform filtering and grouping operations,
+and visualize the data using built-in plotting functions. Pandas is a powerful tool for working
+with medical data, and can help us to gain insights into patient health, diagnose diseases, and develop
+new treatments.

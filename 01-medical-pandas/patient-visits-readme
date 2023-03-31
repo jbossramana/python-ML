@@ -1,0 +1,14 @@
+Suppose we have a CSV file called 'patient_records.csv' that contains records of patient visits to a hospital.
+ Each record includes the patient's name, age, gender, weight, height, blood pressure, and diagnosis.
+
+ In this example, we first load the 'patient_records.csv' file into a Pandas DataFrame using the read_csv() function.
+ We then calculate some summary statistics such as the average age, weight, and height of the patients using the
+ mean() function.
+
+Next, we group the data by gender using the groupby() function and calculate the mean weight and height for each group
+using the mean() function. We print the results using the print() function.
+
+Finally, we create a scatter plot of weight vs. height for male patients using the plot() method of the Pandas DataFrame.
+We first create a new DataFrame containing only the male patients using a boolean mask, and then call the plot() method
+with the kind set to 'scatter' and the x and y parameters set to 'Weight' and 'Height', respectively. We also set the
+title of the plot using the title parameter.

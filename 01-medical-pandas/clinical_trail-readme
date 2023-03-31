@@ -1,0 +1,14 @@
+Suppose we have a dataset containing information about patients in a clinical trial for a new drug.
+The dataset has the following columns:
+
+Patient ID
+Age
+Sex
+Treatment (1 = new drug, 0 = placebo)
+Response (1 = positive response, 0 = negative response)
+We can use Pandas to load the dataset into a DataFrame and perform various analyses on the data. For example,
+we can calculate the percentage of patients who responded positively to the new drug versus the placebo:
+
+This code calculates the percentage of patients who responded positively to the new drug and the placebo,
+as well as the difference in response rate between the two groups. This information can help researchers
+evaluate the efficacy of the new drug and make decisions about its future development.

@@ -1,0 +1,37 @@
+In this example, we first import the Pandas and Matplotlib libraries. We then use the read_csv function
+from Pandas to read in the medical data from a CSV file.
+
+Next, we calculate the average age of patients in the dataset using the mean method of the Pandas DataFrame.
+We print out the result.
+
+Finally, we create a histogram of the blood pressure values using the plot method of the DataFrame.
+We specify the type of plot (kind='hist') and add some labels to the plot using Matplotlib. We then
+display the plot using the show method.
+
+This is just a simple example, but it demonstrates some of the basic functionality of Pandas in working
+with medical data.
+
+
+
+
+The line df = pd.read_csv('medical_data.csv') is a Python code that reads a CSV (Comma-Separated Values) file called
+'medical_data.csv' into a Pandas DataFrame object, which is stored in a variable called 'df'.
+
+Here's a breakdown of what this line of code does:
+
+pd: This is a shorthand reference to the Pandas library, which needs to be imported at the beginning of the script
+using import pandas as pd.
+
+read_csv(): This is a Pandas function that reads a CSV file and converts it into a DataFrame object. The function takes
+one required argument, which is the file path or URL of the CSV file, and several optional arguments that control how
+the file is read and parsed.
+
+'medical_data.csv': This is the file path or URL of the CSV file that we want to read. In this case, the file is located
+ in the same directory as the Python script, so we can just provide the file name.
+
+df: This is the variable name that we are using to store the DataFrame object that is returned by read_csv(). We can
+choose any valid variable name that we want.
+
+So when we run df = pd.read_csv('medical_data.csv'), Pandas reads the contents of the 'medical_data.csv' file and
+creates a DataFrame object that represents the data. The DataFrame is stored in the variable 'df', which we can use
+to manipulate and analyze the data using Pandas functions and methods.

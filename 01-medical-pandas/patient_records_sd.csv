@@ -1,0 +1,6 @@
+PatientID,Name,Age,Gender,Height,Weight,Smoker,Alcohol,Diabetes
+001,John Smith,45,M,180,85,Yes,No,No
+002,Jane Doe,32,F,165,60,No,Yes,No
+003,James Johnson,57,M,175,78,Yes,No,Yes
+004,Sarah Lee,28,F,170,63,No,No,Yes
+005,Michael Chen,40,M,185,92,No,Yes,No
