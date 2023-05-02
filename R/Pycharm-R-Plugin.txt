@@ -1,0 +1,4 @@
+R Language for IntelliJ plugin
+Press Ctrl+Alt+S -> Settings -> Plugin
+Download & Install R3.6.1 https://cran.r-project.org/bin/windows/base/old/3.6.1/
+New Project -> R Project -> set R interpretor -> 3.6.1

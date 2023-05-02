@@ -1,0 +1,2 @@
+download https://cran.r-project.org/bin/windows/base/
+and install the software
