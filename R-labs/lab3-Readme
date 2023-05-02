@@ -1,0 +1,13 @@
+In R, both = and <- are used to assign values to variables, but there are some subtle differences between them:
+
+Assignment operator: The primary purpose of the <- operator is to assign values to variables, whereas = can
+also be used for other purposes, such as passing arguments to functions.
+
+Precedence: The <- operator has a higher precedence than the = operator, which means that R evaluates
+expressions containing <- before expressions containing =.
+
+Consistency with other languages: The <- operator is the standard assignment operator used in many programming
+languages, such as C and Perl, whereas = is more commonly used in other contexts, such as mathematical equations.
+
+Preference: Some R users have a personal preference for using one operator over the other, based on factors
+such as readability or convention.

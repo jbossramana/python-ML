@@ -1,0 +1,40 @@
+R is a programming language and environment for statistical computing and graphics. It provides various
+built-in data structures that are widely used in data analysis and manipulation. Some of the commonly used
+R data structures include:
+
+Vectors: A vector is a collection of values of the same data type. Vectors are used to store one-dimensional
+data such as numbers, characters, or logical values. You can create a vector using the c() function in R.
+
+Matrices: A matrix is a two-dimensional array that stores data of the same type. Matrices are used to store
+tabular data and perform matrix operations such as matrix multiplication and inverse. You can create a matrix
+using the matrix() function in R.
+
+Arrays: An array is a multi-dimensional data structure that stores data of the same type. Arrays are used to
+store data that is more than two-dimensional. You can create an array using the array() function in R.
+
+Lists: A list is a collection of objects of different data types. Lists are used to store complex data structures
+such as data frames and nested lists. You can create a list using the list() function in R.
+
+Data frames: A data frame is a two-dimensional data structure that stores data of different data types. Data frames
+ are used to store data in a tabular format with rows and columns, similar to a spreadsheet. You can create a data
+ frame using the data.frame() function in R.
+
+Factors: A factor is a data structure used to represent categorical data. Factors are used to store data in a fixed
+set of categories, such as gender or color. You can create a factor using the factor() function in R.
+
+Time series: A time series is a sequence of data points that are recorded over time. Time series data are used in
+various applications such as finance, economics, and environmental science. You can create a time series object using
+the ts() function in R.
+
+These are some of the commonly used data structures in R. Understanding the different data structures is essential
+for data analysis and manipulation in R.
+
+
+========================
+R does not have a built-in data structure called "set". However, you can implement sets in R using other data
+structures, such as vectors or lists.
+
+my_set <- c(2, 4, 6, 8, 4, 10, 2)
+my_set <- unique(my_set)
+
+
